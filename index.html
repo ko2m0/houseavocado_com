@@ -18,20 +18,21 @@
     <!-- -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
       .gradient {
         background: linear-gradient(110deg, #568203 0%, #A8EB12 100%);
       }
     </style>
   </head>
-  <body class="leading-normal tracking-normal text-white gradient scroll-smooth" style="font-family: 'Poppins', sans-serif;">
+  <body class="leading-normal tracking-normal text-white gradient scroll-smooth" style="font-family: 'Poppins', sans-serif;" x-data="{ openMenu : false }">
     <!--Nav-->
     <nav id="header" class="fixed w-full z-30 top-0 text-gray-800 bg-gray-100">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4">
         <!-- Top Info -->
-    <div class="w-full container mx-auto  flex-wrap items-center justify-end mt-0 py-2 hidden lg:flex text-sm">
-      <div class="pl-4 flex">
-        <ul class="list-reset lg:flex justify-start flex-1 items-center">
+        <div class="w-full container mx-auto  flex-wrap items-center justify-end mt-0 py-2 hidden lg:flex text-sm">
+        <div class="pl-4 flex">
+         <ul class="list-reset lg:flex justify-start flex-1 items-center">
           <li class="mr-4">
             <a class="">
               <i class="fa fa-map-marker"></i>
@@ -46,12 +47,11 @@
           <li class="mr-4">
             <i class="fa-brands fa-linkedin "></i>
           </li>
-        </ul>
-        
-      </div>
-    </div>
+         </ul>
+        </div>
+       </div>
         <div class="pl-4 flex-1 items-center">
-          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl hidden lg:block" href="#">
+          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl hidden lg:block" href="#" x-cloak>
             <!-- Logo Big -->
             <svg version="1.1" id="LogoColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 446 161" width="70%" height="70%" style="enable-background:new 0 0 446 161;" xml:space="preserve" overflow="visible">
@@ -233,7 +233,6 @@
 	</g>
 </g>
             </svg>
-            
           </a>
           <!-- Logo SMall -->
           <a href="" class="lg:hidden block">
@@ -420,23 +419,26 @@
           </a>
         </div>
         <div class="block lg:hidden pr-4">
-          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition
+           hover:scale-105 duration-300 ease-in-out"
+           @click="openMenu = !openMenu">
             <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
             </svg>
           </button>
         </div>
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 text-sm" id="nav-content">
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto  mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 text-sm"
+          id="nav-content" :class="openMenu ? 'block' : 'hidden' " x-cloak x-show="true">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black no-underline" href="#growersinfo">Agricultores/Exportadores</a>
+              <a class="inline-block py-2 px-4 text-black no-underline" href="#growersinfo" @click="openMenu = !openMenu">Agricultores/Exportadores</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#importersinfo">Importadores/Distribuidores</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#importersinfo" @click="openMenu = !openMenu">Importadores/Distribuidores</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam">Contact Us</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam" @click="openMenu = !openMenu" >Contact Us</a>
             </li>
           </ul>
           <button
@@ -588,12 +590,13 @@
           </div>
       </section>
     </div>
-    
 
+    <!---->
+    <div id="growersinfo" class="bg-white">&nbsp;</div>
     <!-- -->
     <section class="bg-white border-b py-8 px-2">
       
-      <div class="container max-w-5xl mx-auto m-8" id="growersinfo">
+      <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
           Agricultores / Exportadores
         </h2>
@@ -601,7 +604,7 @@
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="flex flex-wrap py-6">
-          <div class="w-5/6 sm:w-1/2 p-4 lg:p-6">
+          <div class="w-full sm:w-1/2 p-4 lg:p-6">
             <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
               ¿Eres agricultor, empacador o exportador en México y buscas una alianza comercial?
               
@@ -883,8 +886,20 @@
       </svg>
     </div>
     <!---->
+    <div class="bg-white py-8 px-2">
+      <section class="container mx-auto text-center py-12 bg-white">
+        <div class="w-full my-2 text-2xl lg:text-4xl/relaxed font-bold leading-normal text-center text-hoa-green-800 ">
+          <div class="flex align-middle justify-center">
+            <img src="./src/img/usamap2.png" alt="">
+          </div>  
+        </div>
+      </section>
+    </div>
+    <!---->
+    <div id="importersinfo" class="bg-white">&nbsp;</div>
+    <!---->
     <div class="bg-white py-8">
-      <div class="container max-w-5xl mx-auto m-8" id="importersinfo">
+      <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
           Importadores / Distribuidores
         </h2>
@@ -892,7 +907,7 @@
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
+          <div class="w-full sm:w-1/2 p-6">
             <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
               ¿Distribuyes aguacate o limas en USA o Canadá y cargas en el Valle de Texas 1,2 o 7 días por semana?
               
@@ -928,6 +943,16 @@
           </div>
         </div>
       </div>
+    </div>
+    <!---->
+    <div class="bg-white py-8 px-2">
+      <section class="container mx-auto text-center py-12 mb-12 bg-white">
+        <div class="w-full my-2  leading-normal text-center">
+          <div class="flex align-middle justify-center">
+            <img src="./src/img/calendario2esp.png" alt="">
+          </div>
+        </div>
+      </section>
     </div>
     <!---->
     <div class="bg-white py-8 px-2">
@@ -1005,7 +1030,9 @@
       </div>
     </section>
     <!-- // -->
-    <section class="bg-gray-100 border-b py-8" id="salesteam">
+    <div id="salesteam" class="bg-white">&nbsp;</div>
+    <!---->
+    <section class="bg-gray-100 border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Contáctanos
@@ -1143,7 +1170,7 @@
               <div class="w-full">
                 <div class="flex flex-col md:flex-row">
                   <div class="md:w-2/5 w-full p-6 mt-6">
-                    <img src="./src/img/arturo3.png" alt="Arturo Larios" class="mx-auto">
+                    <img src="./src/img/jorge1.png" alt="Arturo Larios" class="mx-auto">
                   </div>
                   <div class="md:w-3/5 w-full p-6 mt-6 text-gray-800">
                     <ul class="flex flex-col">
@@ -1195,8 +1222,8 @@
     <footer class="bg-hoa-green-800">
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
-          <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <div class="flex-1 mb-6 text-black align-middle justify-around">
+            <a class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
               
               <?xml version="1.0" encoding="utf-8"?>
               <!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -1481,9 +1508,9 @@
       });
     </script>
     <script>
-      /*Toggle dropdown list*/
-      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-
+      /*Toggle dropdown list */
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8 */
+/* 
       var navMenuDiv = document.getElementById("nav-content");
       var navMenu = document.getElementById("nav-toggle");
 
@@ -1515,7 +1542,7 @@
           t = t.parentNode;
         }
         return false;
-      }
+      } */
     </script>
   </body>
 </html>
