@@ -12,7 +12,7 @@ function get_language_file()
     $_SESSION['lang'] = $_SESSION['lang'] ?? 'en';
     $_SESSION['lang'] = $_GET['lang'] ?? $_SESSION['lang'];
 
-    return "languages/".$_SESSION['lang'].".php";
+    return "src/languages/".$_SESSION['lang'].".php";
 }
 
 function __($str)
