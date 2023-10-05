@@ -1,3 +1,4 @@
+<?php require 'lang.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -73,19 +74,19 @@
           id="nav-content" :class="openMenu ? 'block' : 'hidden' " x-cloak x-show="true">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black no-underline" href="#growersinfo" @click="openMenu = !openMenu">Agricultores/Exportadores</a>
+              <a class="inline-block py-2 px-4 text-black no-underline" href="#growersinfo" @click="openMenu = !openMenu"><?= __('Growers/Exporters') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#importersinfo" @click="openMenu = !openMenu">Importadores/Distribuidores</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#importersinfo" @click="openMenu = !openMenu"><?= __('Importers/Distributors') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam" @click="openMenu = !openMenu" >Contact Us</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam" @click="openMenu = !openMenu" ><?= __('Contact Us') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#eng" data-reload>ENG</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.php?lang=en" data-reload>ENG</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#es" data-reload>ESP</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.php?lang=es" data-reload>ESP</a>
             </li>
           </ul>
           <button
