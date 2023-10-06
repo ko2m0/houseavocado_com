@@ -106,23 +106,23 @@
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full"></p>
           <h1 class="my-12 text-3xl lg:text-5xl font-bold leading-snug" id="immaHeroIntro">
-            Tu socio estratégico de aguacates mexicanos y otros frutos en Pharr, TX. 
+            <?= __('Your trusted partner in avocados and other fruits in Pharr, TX.') ?> 
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Nos especializamos en importar productos mexicanos a Estados Unidos.  
+            <?= __('We specialize in importing Mexican Produce to the United States') ?>  
           </p>
           <div class="py-6 z-10 flex flex-col md:flex-row align-center justify-center">
             <div class="">
               <a href="#growersinfo">
                 <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Agricultores/Exportadores
+                <?= __('Growers/Exporters') ?>
                 </button>
               </a>
             </div>
             <div class="px-4">
               <a href="#importersinfo">
                 <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Importadores/Distribuidores
+                <?= __('Importers/Distributors') ?>
                 </button>
               </a>
               
@@ -158,8 +158,7 @@
     <div class="bg-white py-8 px-2">
       <section class="container mx-auto text-center py-12 bg-white">
         <h2 class="w-full my-12 text-2xl lg:text-5xl/relaxed font-bold  text-center text-hoa-green-800">
-          Importamos, inspeccionamos y distribuímos fácilmente tu producto a cualquier parte de USA.
-        </h2>
+          <?= __('We easily import, inspect and distribute your product anywhere in the US.') ?></h2>
       </section>
     </div>
     <!-- CERTS -->
@@ -246,7 +245,7 @@
       
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          Agricultores / Exportadores
+          <?= __('Growers/Exporters') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -254,13 +253,10 @@
         <div class="flex flex-wrap py-6">
           <div class="w-full sm:w-1/2 p-4 lg:p-6">
             <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-              ¿Eres agricultor, empacador o exportador en México y buscas una alianza comercial?
-              
-            </h3>
+              <?= __('Are you a farmer, packer or exporter in Mexico and looking for a business alliance?') ?></h3>
             <p class="text-gray-600 mb-8">
-              House of Avocado es tu socio estratégico para promover las importaciones de productores agrícolas de México en todo Estados Unidos.
-               Entendemos los sabores y la calidad únicos que ofrecen los aguacates mexicanos, el limón persa y el mango, y estamos aquí para ayudarte
-              a mostrar estas cualidades a los consumidores estadounidenses.
+              <?= __('House of Avocado is your strategic partner to promote imports from agricultural producers from Mexico throughout the United States.') ?> <br><br> <?= __('We understand the unique flavors and quality that Mexican avocados, Persian lemon and mango offer, and we are here to help you
+    to showcase these qualities to American consumers.') ?>
               <br />
               <br />
             </p>
@@ -276,20 +272,18 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-                ¿Eres agricultor y/o empacador y buscas nuevas opciones o iniciar un nuevo camino en la exportación?
+                  <?= __('Are you a farmer and/or packer and are you looking for new options or starting a new path in exporting?') ?>
+        
               </h3>
               <p class="text-gray-600 mb-8">
-                No somos anónimos, estamos aquí para establecer relaciones comerciales sólidas. Si buscas una alianza comercial genuina,
-                cuenta con nosotros.
+                  <?= __('We are not anonymous, we are here to establish strong business relationships. If you are looking for a genuine business alliance, count on us.') ?>
                 <br>
                 <br>
-                No solo te proporcionamos los nombres de nuestros socios comerciales que recibirán tu producto, sino
-                 que también te brindamos la oportunidad de interactuar directamente con ellos. En House of Avocado, la transparencia y la
-                  autenticidad son nuestro sello distintivo.
+                  <?= __('We not only provide you with the names of our business partners who will receive your product, but We also give you the opportunity to interact directly with them. At House of Avocado, transparency and authenticity are our hallmark.') ?>
                 <br>
                 <br>
-                Con House of Avocado, puedes estar seguro de que tus aguacates, limas y mangos estarán en manos de 
-                consumidores ansiosos cuando estén en su punto más fresco y delicioso.
+                  <?= __('With House of Avocado, you can be sure that your avocados, limes and mangoes will be in the hands of eager consumers when they are at their freshest and most delicious.') ?>
+                  
                 <br />
                 <br />
                 
@@ -302,8 +296,7 @@
     <section class="bg-gray-100 border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Productos
-        </h2>
+          <?= __('Products') ?></h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
@@ -314,16 +307,17 @@
                 xGETTING STARTED
               </p>
               <div class="w-full font-bold text-2xl text-gray-800 px-6 py-6">
-                Aguacate
+                <?= __('Avocado') ?>
               </div>
               <div class="w-full px-6">
                 <img src="./src/img/avos1.jpg" alt="" class="object-contain">
               </div>
               <div class="w-full px-6 py-6 mb-5">
                 <p class="text-gray-800 text-base">
-                  El aguacate mexicano, en particular la variedad Hass, es una joya culinaria y nutricional.
-                  Es un ingrediente esencial en una dieta equilibrada. <br><br> Con <strong>House of Avocado</strong>, tienes acceso a la
-                   frescura y calidad del aguacate mexicano de primera categoría. 
+                  <?= __('Mexican avocado, particularly the Hass variety, is a culinary and nutritional gem.
+                  It is an essential ingredient in a balanced diet.') ?>
+                  <br><br> 
+                  <?= __('With <strong>House of Avocado</strong>, you have access to the freshness and quality of top-notch Mexican avocado.') ?> 
                 </p>
               </div>
             </a>
@@ -343,16 +337,16 @@
                 xGETTING STARTED
               </p>
               <div class="w-full font-bold text-2xl text-gray-800 py-6 px-6">
-                Lim&oacute;n Persa
+                <?= __('Persian Lemon') ?>
               </div>
               <div class="w-full px-6">
                 <img src="./src/img/lime2.jpg" alt="" class="object-contain">
               </div>
               <div class="w-full px-6 py-6 mb-5">
                 <p class="text-gray-800 text-base">
-                  El limón persa es una joya cítrica con beneficios inigualables.
-                  Su jugo es un potenciador de sabor en platos y bebidas, y su aroma fresco añade vitalidad.
-                  <br><br> <strong>House of Avocado</strong> ofrece limones mexicanos frescos y de calidad para elevar tus creaciones culinarias.
+                  <?= __('Persian lemon is a citrus gem with unmatched benefits. Its juice is a flavor enhancer in dishes and drinks, and its fresh aroma adds vitality.') ?>
+                  <br><br>
+                  <?= __('<strong>House of Avocado</strong> offers fresh, quality Mexican lemons to elevate your culinary creations.') ?>
                 </p>
               </div>
             </a>
@@ -379,10 +373,8 @@
               </div>
               <div class="w-full px-6 py-6 mb-5">
                 <p class="text-gray-800 text-base">
-                  El mango mexicano es un tesoro tropical. 
-                  Su dulzura natural lo convierte en una deliciosa opción de bocadillo o ingrediente versátil en platos dulces y salados.
-                  <br><br> <strong>House of Avocado</strong> te brinda acceso a mangos mexicanos frescos y de calidad para disfrutar de su sabor exquisito y beneficios nutricionales.
-                </p>
+                  <?= __('The Mexican mango is a tropical treasure. Its natural sweetness makes it a delicious snack option or versatile ingredient in sweet and savory dishes.') ?>
+                  <br><br> <?= __('<strong>House of Avocado</strong> gives you access to fresh, quality Mexican mangoes to enjoy their exquisite flavor and nutritional benefits.') ?></p>
               </div>
             </a>
           </div>
@@ -502,13 +494,12 @@
     </svg>
     <section class="container mx-auto text-center py-8 px-2 mb-12">
       <h2 class="w-full my-2 text-3xl lg:text-5xl font-bold leading-tight text-center text-white">
-        Maximiza Tu Alcance en el Mercado
-      </h2>
+        <?= __('Maximize Your Market Reach') ?></h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 lg:text-3xl text-2xl leading-tight">
-        Asóciate con nosotros para explorar nuevas oportunidades y expandir tu alcance en el mercado estadounidense.
+        <?= __('Partner with us to explore new opportunities and expand your reach in the US market.') ?>
       </h3>
       <button class="hidden mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
         Action!
@@ -549,7 +540,7 @@
     <div class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          Importadores / Distribuidores
+        <?= __('Importers/Distributors') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -557,13 +548,10 @@
         <div class="flex flex-wrap">
           <div class="w-full sm:w-1/2 p-6">
             <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-              ¿Distribuyes aguacate o limas en USA o Canadá y cargas en el Valle de Texas 1,2 o 7 días por semana?
-              
+              <?= __('Do you distribute avocados or limes in the USA or Canada and load in the Rio Grande Valley every week?') ?>
             </h3>
             <p class="text-gray-600 mb-8">
-              Aprovechamos el Puente Pharr, una puerta principal para los productos mexicanos, para garantizar que
-               tus aguacates estén disponibles de manera constante en los Estados Unidos. Esta ubicación estratégica garantiza
-                un acceso rápido y confiable a los mercados estadounidenses. 
+              <?= __('We take advantage of the Pharr Bridge, a main gateway for Mexican products, to ensure that your avocados are consistently available in the United States. This strategic location guarantees fast and reliable access to US markets.') ?>
               <br />
               <br />
             </p>
@@ -579,11 +567,11 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-                ¿Aguacate es de tus productos principales pero no compras / cargas en el tren de McAllen?
+                <?= __('Is avocado one of your main products but you don&apos;t purchase full loads in McAllen?') ?>
+                
               </h3>
               <p class="text-gray-600 mb-8">
-                Tenemos LTL en algunas ciudades de USA, entre las que destacan: Los Ángeles, San Francisco, San Diego, Bronx,
-                 Philadelphia, Miami, Tampa, Phoenix, Las Vegas, sin embargo podemos buscar nueva opciones para ti, contáctanos.
+                <?= __('We offer LTL (Less Than Truckload) services in some US cities, including Los Angeles, San Francisco, San Diego, Bronx, Philadelphia, Miami, Tampa, Phoenix, Las Vegas. However, we can explore new options for you; please contact us.') ?>
                 <br />
                 <br />
               </p>
@@ -606,9 +594,7 @@
     <div class="bg-white py-8 px-2">
       <section class="container mx-auto text-center py-12 mb-12 bg-white">
         <h2 class="w-full my-2 text-2xl lg:text-4xl/relaxed font-bold leading-normal text-center text-hoa-green-800 ">
-          Nuestro equipo cuenta con una amplia experiencia en la industria de la importación de aguacates,
-           asegurando que tus productos sean manejados con cuidado y experiencia.
-        </h2>
+          <?= __('Our team has extensive experience in the avocado import industry, ensuring that your products are handled with care and expertise.') ?></h2>
       </section>
     </div>
     <!---->
@@ -616,7 +602,7 @@
       
       <div class="container max-w-5xl mx-auto m-8" id="growersinfo">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          ¿Qui&eacute;nes somos?
+          <?= __('About Us') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -624,9 +610,9 @@
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
             <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
-              Comenzamos nuestra aventura en julio de 2020, en plena pandemia de Covid-19, decidimos fundar esta empresa en los Estados Unidos.
-              En el transcurso de casi 2.5 años desde su concepción, nos establecimos en California. <br> Sin embargo, a lo largo de ese tiempo,
-              nuestro principal punto de venta siempre ha sido el Valle de Texas, específicamente la ciudad de Pharr.
+              <?= __('We embarked on this journey in July 2020, right in the midst of Covid-19. We decided to establish this company in the United States. For nearly 2.5 years since the inception of CDA, we were based in California.') ?>
+               <br><br>
+              <?= __('However, throughout that time, the primary point of sale was always the Rio Grande Valley, specifically the city of Pharr.') ?> 
               <br />
               <br />
           </p>
@@ -642,10 +628,9 @@
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
               <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed text-right">
-                  Por esta razón, a principios de 2023, tomamos la decisión de reubicarnos en Pharr, TX. Redefinimos nuestro enfoque empresarial
-                   como importadores de volumen masivo, centrándonos en servir a distribuidores que abastecen sus productos en el Valle de Texas. <br><br>
-                    También extendimos nuestros servicios a aquellos que no tienen tiempo para gestionar la logística, ofreciendo entregas FTL
-                     (Full Truckload) y LTL (Less Than Truckload).
+                  <?= __('As such, at the beginning of 2023, we relocated to Pharr, TX. We redefined our business as a massive volume importer, focusing on distributors who come to replenish their produce in the Rio Grande Valley.') ?>
+                   <br><br>
+                   <?= __('We also serve those who may not have the time to coordinate logistics, offering both FTL and LTL delivery services.') ?>
                 <br />
                 <br />
             </p>
@@ -655,10 +640,9 @@
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
             <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
-              A lo largo de este camino, hemos comprendido que el precio, la longitud de la cadena de suministro o incluso la calidad,
-              carecen de significado sin un servicio de calidad y relaciones sólidas. <br><br>  Cuando hablamos de una nueva negociación, no la
-               vemos simplemente como una venta o compra, sino como el inicio de una amistad. En nuestra casa, eres considerado parte
-                de la familia.
+              <?= __('Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.') ?>
+               <br><br>
+               <?= __('That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.') ?>  
               <br />
               <br />
           </p>
@@ -668,7 +652,7 @@
               <div class="mr-4 text-right">
                 <a href="tel:+19255585243">
                   <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Conoce más de nosotros
+                    <?= __('More About Us') ?>
                     </button>
                 </a>    
               </div>
@@ -683,7 +667,7 @@
     <section class="bg-gray-100 border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Contáctanos
+        <?= __('Contact Us') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -696,7 +680,7 @@
                 xGETTING STARTED
               </p>
               <div class="w-full font-bold text-3xl text-gray-800 px-6 py-6 text-center">
-                Ventas
+                <?= __('Sales') ?>
               </div>
               <!-- -->
               <div class="w-full">
@@ -713,7 +697,7 @@
                         <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
                       </li>
                       <li class="py-2 block md:hidden">
-                        <p><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                        <p><a href="mailto:Arturo@casadelaguacate.com">Arturo@casadelaguacate.com</a></p>
                       </li>
                     </ul>
                   </div>
@@ -724,13 +708,13 @@
           </div>
                  <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow px-6">
                   <div class="flex items-center justify-center hidden md:block">
-                    <p class="text-gray-800 my-4 text-center"><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                    <p class="text-gray-800 my-4 text-center"><a href="mailto:Arturo@casadelaguacate.com">Arturo@casadelaguacate.com</a></p>
                   </div>
                  <div class="flex items-center justify-end">
                   <div class="mr-4">
                     <a href="tel:+19255585243">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        Call
+                        <?= __('Call') ?>
                         </button>
                     </a>
                     
@@ -754,7 +738,7 @@
                 xGETTING STARTED
               </p>
               <div class="w-full font-bold text-3xl text-gray-800 px-6 py-6 text-center">
-                Ventas
+              <?= __('Sales') ?>
               </div>
               <!-- -->
               <div class="w-full">
@@ -788,7 +772,7 @@
                   <div class="mr-4">
                     <a href="tel:+19255585243">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        Call
+                      <?= __('Call') ?>
                         </button>
                     </a>
                     
@@ -812,7 +796,7 @@
                 xGETTING STARTED
               </p>
               <div class="w-full font-bold text-3xl text-gray-800 px-6 py-6 text-center">
-                Compras
+              <?= __('Purchases') ?>
               </div>
               <!-- -->
               <div class="w-full">
@@ -846,7 +830,7 @@
                   <div class="mr-4">
                     <a href="tel:+19255585243">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        Call
+                      <?= __('Call') ?>
                         </button>
                     </a>
                     
