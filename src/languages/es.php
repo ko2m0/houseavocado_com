@@ -5,8 +5,8 @@ $lang = [
 
     // Header/Menu
 
-    'Growers/Exporters' => 'Agricultores/Exportadores',
-    'Importers/Distributors' => 'Importadores/Distribuidores',
+    'Growers / Exporters' => 'Agricultores / Exportadores',
+    'Importers / Distributors' => 'Importadores / Distribuidores',
     'Contact Us' => 'Cont&aacute;ctanos',
 
 

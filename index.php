@@ -115,14 +115,14 @@
             <div class="">
               <a href="#growersinfo">
                 <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                <?= __('Growers/Exporters') ?>
+                <?= __('Growers / Exporters') ?>
                 </button>
               </a>
             </div>
             <div class="px-4">
               <a href="#importersinfo">
                 <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                <?= __('Importers/Distributors') ?>
+                <?= __('Importers / Distributors') ?>
                 </button>
               </a>
               
@@ -245,7 +245,7 @@
       
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          <?= __('Growers/Exporters') ?>
+          <?= __('Growers / Exporters') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -540,7 +540,7 @@
     <div class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-        <?= __('Importers/Distributors') ?>
+        <?= __('Importers / Distributors') ?>
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
