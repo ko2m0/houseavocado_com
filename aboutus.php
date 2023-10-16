@@ -131,7 +131,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="./src/img/avos4cover8.png" />
+          <img class="w-full md:w-4/5 z-50" src="./src/img/avos4cover2.png" />
         </div>
       </div>
     </div>
@@ -155,326 +155,56 @@
       </svg>
     </div>
     <!-- -->
-    <div class="bg-white py-8 px-2">
-      <section class="container mx-auto text-center py-12 bg-white">
-        <h2 class="w-full my-12 text-2xl lg:text-5xl/relaxed font-bold  text-center text-hoa-green-800">
-          <?= __('We easily import, inspect and distribute your product anywhere in the US.') ?></h2>
-      </section>
-    </div>
-    <!-- CERTS -->
-    <div class="bg-gray-100 hidden lg:block">
-      <section class="container mx-auto text-center py-12 ">
-        <div class="container mx-auto flex align-middle">
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <img src="./src/img/certs/lot_2.png" alt="">
-          </div>
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <img src="./src/img/certs/primus_logo1.png" alt="">
-          </div>
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <img src="./src/img/certs/globalgap_logo1.png" alt="">
-            </div>
-            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <img src="./src/img/certs/apeamlogo1.png" alt="">
-            </div>
-            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <img src="./src/img/certs/fairtrade_logo1.png" alt="">
-            </div>
-            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <img src="./src/img/certs/senasicalogo1.png" alt="">
-            </div>
-            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <img src="./src/img/certs/afmlogo1.png" alt="">
-            </div>  
-        </div>
-      </section>
-    </div>
-    <!-- Certs mobile -->
-    <div class="bg-gray-100 block lg:hidden">
-      <section class="container mx-auto text-center py-12">
-        <div id="scrollContainer" class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start">
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="">
-              <img class="object-cover"
-                src="./src/img/certs/lot_2.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover"
-                src="./src/img/certs/primus_logo1.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover"
-                src="./src/img/certs/apeamlogo1.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="">
-              <img class="object-cover"
-                src="./src/img/certs/globalgap_logo1.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover"
-                src="./src/img/certs/fairtrade_logo1.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover"
-                src="./src/img/certs/senasicalogo1.png" alt=""/>
-            </div>
-          </div>
-          <div class="flex-none w-1/3 mr-4 md:pb-4 ">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover"
-                src="./src/img/certs/afmlogo1.png" alt=""/>
-            </div>
-          </div>
-      </section>
-    </div>
-
-    <!---->
-    <div id="growersinfo" class="bg-white">&nbsp;</div>
+    
     <!-- -->
     <section class="bg-white border-b py-8 px-2">
-      
       <div class="container max-w-5xl mx-auto m-8">
-        <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          <?= __('Growers / Exporters') ?>
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
         <div class="flex flex-wrap py-6">
-          <div class="w-full sm:w-1/2 p-4 lg:p-6">
-            <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-              <?= __('Are you a farmer, packer or exporter in Mexico and looking for a business alliance?') ?></h3>
-            <p class="text-gray-600 mb-8">
-              <?= __('House of Avocado is your strategic partner to promote imports from agricultural producers from Mexico throughout the United States.') ?> <br><br> <?= __('We understand the unique flavors and quality that Mexican avocados, Persian lemon and mango offer, and we are here to help you
-    to showcase these qualities to American consumers.') ?>
+          <div class="w-full md:w-2/3 p-4 lg:p-6">
+            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+              <?= __('Like every entrepreneur, we&apos;ve experienced ups and downs, sometimes more downs than ups.') ?>
+               <br><br>
+              <?= __('However, giving up is not in our DNA. We&apos;ve learned from our mistakes and strive to be better in the next season.') ?> 
               <br />
               <br />
-            </p>
+          </p>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img src="./src/img/avosgrowers3.jpg" alt="">
+          <div class="w-full sm:w-1/3 p-6 hidden md:block">
+            <img src="" alt="">
           </div>
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img src="./src/img/imgs4blogs_290322_1.jpg" alt="" class="w-full  mx-auto">
+          <div class="w-full sm:w-1/3 p-6 mt-6 hidden md:block">
+            &nbsp;
           </div>
-          <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-                  <?= __('Are you a farmer and/or packer and are you looking for new options or starting a new path in exporting?') ?>
-        
-              </h3>
-              <p class="text-gray-600 mb-8">
-                  <?= __('We are not anonymous, we are here to establish strong business relationships. If you are looking for a genuine business alliance, count on us.') ?>
-                <br>
-                <br>
-                  <?= __('We not only provide you with the names of our business partners who will receive your product, but We also give you the opportunity to interact directly with them. At House of Avocado, transparency and authenticity are our hallmark.') ?>
-                <br>
-                <br>
-                  <?= __('With House of Avocado, you can be sure that your avocados, limes and mangoes will be in the hands of eager consumers when they are at their freshest and most delicious.') ?>
-                  
-                <br />
-                <br />
-                
-              </p>
+              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+                  <?= __('Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.') ?>
+                   <br><br>
+            </p>
             </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap py-6">
+          <div class="w-full md:w-2/3 p-4 lg:p-6">
+            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+              <?= __('That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.') ?>
+               <br><br>
+              
+          </p>
+          </div>
+          <div class="w-full sm:w-1/3 p-6 hidden md:block">
+            <img src="" alt="">
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 border-b py-8">
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          <?= __('Products') ?></h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="hidden w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
-              <div class="w-full font-bold text-2xl text-gray-800 px-6 py-6">
-                <?= __('Avocado') ?>
-              </div>
-              <div class="w-full px-6">
-                <img src="./src/img/avos1.jpg" alt="" class="object-contain">
-              </div>
-              <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
-                  <?= __('Mexican avocado, particularly the Hass variety, is a culinary and nutritional gem.
-                  It is an essential ingredient in a balanced diet.') ?>
-                  <br><br> 
-                  <?= __('With <strong>House of Avocado</strong>, you have access to the freshness and quality of top-notch Mexican avocado.') ?> 
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="hidden flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-start">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="hidden w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
-              <div class="w-full font-bold text-2xl text-gray-800 py-6 px-6">
-                <?= __('Persian Lemon') ?>
-              </div>
-              <div class="w-full px-6">
-                <img src="./src/img/lime2.jpg" alt="" class="object-contain">
-              </div>
-              <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
-                  <?= __('Persian lemon is a citrus gem with unmatched benefits. Its juice is a flavor enhancer in dishes and drinks, and its fresh aroma adds vitality.') ?>
-                  <br><br>
-                  <?= __('<strong>House of Avocado</strong> offers fresh, quality Mexican lemons to elevate your culinary creations.') ?>
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="hidden flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-center">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="hidden w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
-              <div class="w-full font-bold text-2xl text-gray-800 px-6 py-6">
-                Mango
-              </div>
-              <div class="w-full px-6">
-                <img src="./src/img/mango1.jpg" alt="" class="object-contain">
-              </div>
-              <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
-                  <?= __('The Mexican mango is a tropical treasure. Its natural sweetness makes it a delicious snack option or versatile ingredient in sweet and savory dishes.') ?>
-                  <br><br> <?= __('<strong>House of Avocado</strong> gives you access to fresh, quality Mexican mangoes to enjoy their exquisite flavor and nutritional benefits.') ?></p>
-              </div>
-            </a>
-          </div>
-          <div class="hidden flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-end">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Pricing -->
-    <section class="bg-gray-100 py-8 hidden">
-      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Pricing
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £0
-                <span class="text-base">for one user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-4xl font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Change the colour #f8fafc to match the previous section colour -->
+    <!-- Our Mission -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
+          <g class="wave" fill="#ffffff">
             <path
               d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
             ></path>
@@ -492,18 +222,13 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-8 px-2 mb-12">
-      <h2 class="w-full my-2 text-3xl lg:text-5xl font-bold leading-tight text-center text-white">
-        <?= __('Maximize Your Market Reach') ?></h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <h3 class="my-4 lg:text-3xl text-2xl leading-tight">
-        <?= __('Partner with us to explore new opportunities and expand your reach in the US market.') ?>
-      </h3>
-      <button class="hidden mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Action!
-      </button>
+    <section class="container mx-auto text-center py-8 px-2">
+      <h2 class="my-4 lg:text-4xl text-2xl leading-loose">
+        <?= __('Our Mission is to provide the highest quality fresh produce to our customers while ensuring fair compensation for our farmers.') ?>
+        <br>
+        <br>
+        <?= __('We distinguish ourselves through our friendly and humble approach, fostering strong and lasting relationships with both our customers and collaborators.') ?>
+      </h2>
     </section>
     <div class="relative -mt-12 lg:-mt-24">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -524,97 +249,16 @@
         </g>
       </svg>
     </div>
-    <!---->
-    <div class="bg-white py-8 px-2">
-      <section class="container mx-auto text-center py-12 bg-white">
-        <div class="w-full my-2 text-2xl lg:text-4xl/relaxed font-bold leading-normal text-center text-hoa-green-800 ">
-          <div class="flex align-middle justify-center">
-            <img src="./src/img/usamap2.png" alt="">
-          </div>  
-        </div>
-      </section>
-    </div>
-    <!---->
-    <div id="importersinfo" class="bg-white">&nbsp;</div>
-    <!---->
-    <div class="bg-white py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-        <?= __('Importers / Distributors') ?>
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-              <?= __('Do you distribute avocados or limes in the USA or Canada and load in the Rio Grande Valley every week?') ?>
-            </h3>
-            <p class="text-gray-600 mb-8">
-              <?= __('We take advantage of the Pharr Bridge, a main gateway for Mexican products, to ensure that your avocados are consistently available in the United States. This strategic location guarantees fast and reliable access to US markets.') ?>
-              <br />
-              <br />
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-              <img src="./src/img/trailer1.jpg" alt="">
-          </div>
-        </div>
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-              <img src="./src/img/export1.jpg" alt="">
-          </div>
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <div class="align-middle">
-              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
-                <?= __('Is avocado one of your main products but you don&apos;t purchase full loads in McAllen?') ?>
-                
-              </h3>
-              <p class="text-gray-600 mb-8">
-                <?= __('We offer LTL (Less Than Truckload) services in some US cities, including Los Angeles, San Francisco, San Diego, Bronx, Philadelphia, Miami, Tampa, Phoenix, Las Vegas. However, we can explore new options for you; please contact us.') ?>
-                <br />
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!---->
-    <div class="bg-white py-8 px-2">
-      <section class="container mx-auto text-center py-12 mb-12 bg-white">
-        <div class="w-full my-2  leading-normal text-center">
-          <div class="flex align-middle justify-center">
-            <img src="./src/img/calendario2esp.png" alt="">
-          </div>
-        </div>
-      </section>
-    </div>
-    <!---->
-    <div class="bg-white py-8 px-2">
-      <section class="container mx-auto text-center py-12 mb-12 bg-white">
-        <h2 class="w-full my-2 text-2xl lg:text-4xl/relaxed font-bold leading-normal text-center text-hoa-green-800 ">
-          <?= __('Our team has extensive experience in the avocado import industry, ensuring that your products are handled with care and expertise.') ?></h2>
-      </section>
-    </div>
-    <!---->
+    <!-- -->
     <section class="bg-white border-b py-8 px-2">
-      
-      <div class="container max-w-5xl mx-auto m-8" id="growersinfo">
-        <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
-          <?= __('About Us') ?>
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
+      <div class="container max-w-5xl mx-auto m-8">
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
-              <?= __('We embarked on this journey in July 2020, right in the midst of Covid-19. We decided to establish this company in the United States. For nearly 2.5 years since the inception of CDA, we were based in California.') ?>
+            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+                <strong>
+              <?= __('What we&apos;ve learned during this time:') ?>
+              </strong>
                <br><br>
-              <?= __('However, throughout that time, the primary point of sale was always the Rio Grande Valley, specifically the city of Pharr.') ?> 
-              <br />
-              <br />
           </p>
           </div>
           <div class="w-full sm:w-1/3 p-6 hidden md:block">
@@ -627,40 +271,129 @@
           </div>
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed text-right">
-                  <?= __('As such, at the beginning of 2023, we relocated to Pharr, TX. We redefined our business as a massive volume importer, focusing on distributors who come to replenish their produce in the Rio Grande Valley.') ?>
+              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+                  <?= __('No matter what happens in the exporting country, our customers require us to solve their fruit needs; the business can&apos;t stop.') ?>
                    <br><br>
-                   <?= __('We also serve those who may not have the time to coordinate logistics, offering both FTL and LTL delivery services.') ?>
-                <br />
-                <br />
             </p>
             </div>
           </div>
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
-              <?= __('Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.') ?>
+            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+              <?= __('It&apos;s better to acknowledge and rectify an error than to deny it.') ?>
                <br><br>
-               <?= __('That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.') ?>  
-              <br />
-              <br />
+              
           </p>
           </div>
-          
-            <div class="w-full  p-6">
-              <div class="mr-4 text-right">
-                <a href="aboutus.php">
-                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    <?= __('More About Us') ?>
-                    </button>
-                </a>    
-              </div>
+          <div class="w-full sm:w-1/3 p-6 hidden md:block">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+          <div class="w-full sm:w-1/3 p-6 mt-6 hidden md:block">
+            &nbsp;
+          </div>
+          <div class="w-full sm:w-2/3 p-6 mt-6">
+            <div class="align-middle">
+              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+                  <?= __('Honesty and friendship are what our customers and suppliers value most.') ?>
+                   <br><br>
+            </p>
             </div>
-          
+          </div>
+        </div>
+        <div class="flex flex-wrap py-6">
+          <div class="w-full md:w-2/3 p-4 lg:p-6">
+            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+              <?= __('Price is nothing without quality, quality is nothing without compliance, compliance is nothing without quality, and vice versa.') ?>
+               <br><br>
+              
+          </p>
+          </div>
+          <div class="w-full sm:w-1/3 p-6 hidden md:block">
+            <img src="" alt="">
+          </div>
         </div>
       </div>
     </section>
+    <!-- Our Vision -->
+    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+          <g class="wave" fill="#ffffff">
+            <path
+              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
+            ></path>
+          </g>
+          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+              <path
+                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                opacity="0.100000001"
+              ></path>
+              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <section class="container mx-auto text-center py-8 px-2">
+      <h2 class="my-4 lg:text-4xl text-2xl leading-loose">
+        <?= __('Our Vision is to be leaders in the produce industry in America, providing quality, transparency, and lasting relationships to both our customers and suppliers, ensuring our consistency and relationships endure over time.') ?>
+        </h2>
+    </section>
+    <div class="relative -mt-12 lg:-mt-24">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+            <path
+              d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+              opacity="0.100000001"
+            ></path>
+            <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+          </g>
+          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path
+              d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <!-- -->
+    <!-- -->
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          <?= __('Our Values') ?></h2>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 ">
+            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Loyalty') ?></h2>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 ">
+            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Commitment') ?></h2>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 ">
+            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Humility') ?></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Change the colour #f8fafc to match the previous section colour -->
+    
+    
     <!-- // -->
     <div id="salesteam" class="bg-white">&nbsp;</div>
     <!---->
@@ -788,65 +521,7 @@
             </div>
           </div>
         </div>
-         <!-- CONTACT CARD 3 -->
-         <div class="w-full md:w-1/2 xl:w-1/3 p-6 flex flex-col">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <div  class="flex flex-wrap no-underline hover:no-underline">
-              <p class="hidden w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
-              </p>
-              <div class="w-full font-bold text-3xl text-gray-800 px-6 py-6 text-center">
-              <?= __('Sales') ?>
-              </div>
-              <!-- -->
-              <div class="w-full">
-                <div class="flex flex-col md:flex-row">
-                  <div class="md:w-2/5 w-full p-6 mt-6">
-                    <img src="./src/img/memo1.png" alt="Arturo Larios" class="mx-auto md:max-w-[100%] max-w-[70%]">
-                  </div>
-                  <div class="md:w-3/5 w-full p-6 mt-6 text-gray-800">
-                    <ul class="flex flex-col">
-                      <li class="text-xl pb-2">
-                        <p class="font-bold">Guillermo</p>
-                      </li>
-                      <li class="py-4">
-                        <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
-                      </li>
-                      <li class="py-2 block md:hidden">
-                        <p><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <!---->
-            </div>
-          </div>
-                 <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow px-6">
-                  <div class="flex items-center justify-center hidden md:block">
-                    <p class="text-gray-800 my-4 text-center"><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
-                  </div>
-                 <div class="flex items-center justify-end">
-                  <div class="mr-4">
-                    <a href="tel:+19255585243">
-                      <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                      <?= __('Call') ?>
-                        </button>
-                    </a>
-                    
-                  </div>
-                  <div class="">
-                    <a href="mailto:Arturo@casadelaguacate.com">
-                      <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                        Email
-                          </button>
-                    </a>
-                  </div>
-                
-            </div>
-          </div>
-        </div>
-        <!-- CONTACT CARD 4 -->
+        <!-- CONTACT CARD 3 -->
         <div class="w-full md:w-1/2 xl:w-1/3 p-6 flex flex-col">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <div  class="flex flex-wrap no-underline hover:no-underline">
