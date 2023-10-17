@@ -53,10 +53,10 @@
         <div class="pl-4 flex-1 items-center">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl hidden lg:block" href="#" x-cloak>
             <!-- Logo Big -->
-            <img src="./src/img/HoA_logo_color.svg" alt="" class="max-w-[70%] md:max-w-[90%] lg:max-w-[70%]">
+            <img src="./src/img/HoA_logo_color.svg" alt="" class="max-w-[70%] md:max-w-[70%] lg:max-w-[70%]">
           </a>
           <!-- Logo SMall -->
-          <a href="" class="lg:hidden block">
+          <a href="#" class="lg:hidden block">
             <img src="./src/img/HoA_logo_color.svg" alt="" class="max-w-[40%] md:max-w-[20%]">
           </a>
         </div>
@@ -83,6 +83,9 @@
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam" @click="openMenu = !openMenu" ><?= __('Contact Us') ?></a>
             </li>
             <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="aboutus.php" @click="openMenu = !openMenu" ><?= __('About Us') ?></a>
+            </li>
+            <li class="mr-3">
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.php?lang=en" data-reload>ENG</a>
             </li>
             <li class="mr-3">
@@ -100,12 +103,12 @@
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
     <!--Hero-->
-    <div class="pt-32">
+    <div class="pt-44">
       <div class="container px-3 mx-auto flex flex-wrap flex-col-reverse md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full"></p>
-          <h1 class="my-12 text-3xl lg:text-5xl font-bold leading-snug" id="immaHeroIntro">
+          <h1 class="my-14 text-3xl lg:text-6xl font-bold leading-loose" id="immaHeroIntro">
             <?= __('Your trusted partner in avocados and other fruits in Pharr, TX.') ?>
           </h1>
           <p class="leading-normal text-2xl mb-8">
@@ -694,10 +697,10 @@
                         <p class="font-bold">Arturo Larios</p>
                       </li>
                       <li class="py-4">
-                        <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
+                        <p class=""><a href="tel:+19255585243">(925)-558-5243</a></p>
                       </li>
                       <li class="py-2 block md:hidden">
-                        <p><a href="mailto:Arturo@casadelaguacate.com">Arturo@casadelaguacate.com</a></p>
+                        <p><a href="mailto:Arturo@casadelaguacate.com">Artur@houseavocado.com</a></p>
                       </li>
                     </ul>
                   </div>
@@ -708,7 +711,7 @@
           </div>
                  <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow px-6">
                   <div class="flex items-center justify-center hidden md:block">
-                    <p class="text-gray-800 my-4 text-center"><a href="mailto:Arturo@casadelaguacate.com">Arturo@casadelaguacate.com</a></p>
+                    <p class="text-gray-800 my-4 text-center"><a href="mailto:Artur@houseavocado.com">Artur@houseavocado.com</a></p>
                   </div>
                  <div class="flex items-center justify-end">
                   <div class="mr-4">
@@ -720,7 +723,7 @@
                     
                   </div>
                   <div class="">
-                    <a href="mailto:Arturo@casadelaguacate.com">
+                    <a href="mailto:Artur@houseavocado.com">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                         Email
                           </button>
@@ -744,7 +747,7 @@
               <div class="w-full">
                 <div class="flex flex-col md:flex-row">
                   <div class="md:w-2/5 w-full p-6 mt-6">
-                    <img src="./src/img/paulette1.png" alt="Arturo Larios" class="mx-auto md:max-w-[100%] max-w-[70%]">
+                    <img src="./src/img/paulette1.png" alt="Paulette House of Avocado Sales" class="mx-auto md:max-w-[100%] max-w-[70%]">
                   </div>
                   <div class="md:w-3/5 w-full p-6 mt-6 text-gray-800">
                     <ul class="flex flex-col">
@@ -752,10 +755,10 @@
                         <p class="font-bold">Paulette</p>
                       </li>
                       <li class="py-4">
-                        <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
+                        <p class=""><a href="tel:+18057961694">(805)-796-1694</a></p>
                       </li>
                       <li class="py-2 block md:hidden">
-                        <p><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                        <p><a href="mailto:paulette@casadelaguacate.com">paulette@casadelaguacate.com</a></p>
                       </li>
                     </ul>
                   </div>
@@ -766,11 +769,11 @@
           </div>
                  <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow px-6">
                   <div class="flex items-center justify-center hidden md:block">
-                    <p class="text-gray-800 my-4 text-center"><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                    <p class="text-gray-800 my-4 text-center"><a href="mailto:paulette@casadelaguacate.com">paulette@casadelaguacate.com</a></p>
                   </div>
                  <div class="flex items-center justify-end">
                   <div class="mr-4">
-                    <a href="tel:+19255585243">
+                    <a href="tel:+18057961694">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                       <?= __('Call') ?>
                         </button>
@@ -778,7 +781,7 @@
                     
                   </div>
                   <div class="">
-                    <a href="mailto:Arturo@casadelaguacate.com">
+                    <a href="mailto:paulette@casadelaguacate.com">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                         Email
                           </button>
@@ -802,7 +805,7 @@
               <div class="w-full">
                 <div class="flex flex-col md:flex-row">
                   <div class="md:w-2/5 w-full p-6 mt-6">
-                    <img src="./src/img/memo1.png" alt="Arturo Larios" class="mx-auto md:max-w-[100%] max-w-[70%]">
+                    <img src="./src/img/memo1.png" alt="Guillermo" class="mx-auto md:max-w-[100%] max-w-[70%]">
                   </div>
                   <div class="md:w-3/5 w-full p-6 mt-6 text-gray-800">
                     <ul class="flex flex-col">
@@ -810,10 +813,10 @@
                         <p class="font-bold">Guillermo</p>
                       </li>
                       <li class="py-4">
-                        <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
+                        <p class=""><a href="tel:+524434920041">(443)-492-0041</a></p>
                       </li>
                       <li class="py-2 block md:hidden">
-                        <p><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                        <p><a href="mailto:guillermo@houseavocado.com">guillermo@houseavocado.com</a></p>
                       </li>
                     </ul>
                   </div>
@@ -824,11 +827,11 @@
           </div>
                  <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow px-6">
                   <div class="flex items-center justify-center hidden md:block">
-                    <p class="text-gray-800 my-4 text-center"><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
+                    <p class="text-gray-800 my-4 text-center"><a href="mailto:guillermo@houseavocado.com">guillermo@houseavocado.com</a></p>
                   </div>
                  <div class="flex items-center justify-end">
                   <div class="mr-4">
-                    <a href="tel:+19255585243">
+                    <a href="tel:+524434920041">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                       <?= __('Call') ?>
                         </button>
@@ -836,7 +839,7 @@
                     
                   </div>
                   <div class="">
-                    <a href="mailto:Arturo@casadelaguacate.com">
+                    <a href="mailto:guillermo@houseavocado.com">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                         Email
                           </button>
@@ -860,7 +863,7 @@
               <div class="w-full">
                 <div class="flex flex-col md:flex-row">
                   <div class="md:w-2/5 w-full p-6 mt-6">
-                    <img src="./src/img/jorge1.png" alt="Arturo Larios" class="mx-auto md:max-w-[100%] max-w-[70%]">
+                    <img src="./src/img/jorge1.png" alt="Jorge Manzo" class="mx-auto md:max-w-[100%] max-w-[70%]">
                   </div>
                   <div class="md:w-3/5 w-full p-6 mt-6 text-gray-800">
                     <ul class="flex flex-col">
@@ -868,7 +871,7 @@
                         <p class="font-bold">Jorge Manzo</p>
                       </li>
                       <li class="py-4">
-                        <p class=""><a href="tel:+14521287338">(452)-128-7338</a></p>
+                        <p class=""><a href="tel:+524521287338">(452)-128-7338</a></p>
                       </li>
                       <li class="py-2 block md:hidden">
                         <p><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
@@ -886,7 +889,7 @@
                   </div>
                  <div class="flex items-center justify-end">
                   <div class="mr-4">
-                    <a href="tel:+19255585243">
+                    <a href="tel:+524521287338">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                       <?= __('Call') ?>
                         </button>
@@ -894,7 +897,7 @@
                     
                   </div>
                   <div class="">
-                    <a href="mailto:Arturo@casadelaguacate.com">
+                    <a href="mailto:jorge.manzo@casadelaguacate.com">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                         Email
                           </button>
@@ -921,13 +924,13 @@
             <p class="uppercase text-gray-300 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                <a href="#" class="no-underline hover:underline text-gray-800">FAQ</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                <a href="#" class="no-underline hover:underline text-gray-800">Help</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                <a href="#" class="no-underline hover:underline text-gray-800">Support</a>
               </li>
             </ul>
           </div>
@@ -935,10 +938,10 @@
             <p class="uppercase text-gray-300 md:mb-6">Legal</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Terms</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Privacy</a>
               </li>
             </ul>
           </div>
@@ -946,27 +949,27 @@
             <p class="uppercase text-gray-300 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0 hidden">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Twitter</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
             <p class="uppercase text-gray-300 md:mb-6" id="dosdiv">Company</p>
             <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0 hidden">
+                <a href="#" class="no-underline hover:underline text-gray-800 ">Official Blog</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                <a href="aboutus.php" class="no-underline hover:underline text-gray-800 ">About Us</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="#salesteam" class="no-underline hover:underline text-gray-800 ">Contact</a>
               </li>
             </ul>
           </div>

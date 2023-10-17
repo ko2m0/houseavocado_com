@@ -92,7 +92,27 @@ $lang = [
     'Sales' => 'Ventas',
     'Purchases' => 'Compras',
     'Call' => 'Llamar',
-    '' => '',
+
+
+// About Us
+
+    'About Us' => 'Acerca de Nosotros',
+    'Like every entrepreneur, we&apos;ve experienced ups and downs, sometimes more downs than ups.' => 'Como todo emprendedor, hemos tenido buenas y malas experiencias, y a veces más malas que buenas.',
+    'However, giving up is not in our DNA. We&apos;ve learned from our mistakes and strive to be better in the next season.' => 'Pero no sabemos rendirnos, eso no está en nuestro ADN. Hemos aprendido de los errores y tratamos de ser mejores en la siguiente temporada.',
+    'Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.' => 'En este transcurso, hemos aprendido que el precio, por más bajo que sea, o lo corta que pueda ser la cadena entre el campo y el cliente, inclusive la calidad, no son nada sin el servicio y la relación.',
+    'That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.' => 'Por eso, cuando hablamos de una nueva negociación, para nosotros no es una venta o una compra, es el comienzo de una amistad; en nuestra casa, eres familia.',
+    'Our Mission is to provide the highest quality fresh produce to our customers while ensuring fair compensation for our farmers.' => 'Nuestra Misión es proporcionar frutos frescos de la más alta calidad a nuestros clientes, mientras retribuimos de manera justa a nuestros agricultores.',
+    'We distinguish ourselves through our friendly and humble approach, fostering strong and lasting relationships with both our customers and collaborators.' => 'Nos distinguimos por nuestro trato amistoso y humilde, creando relaciones sólidas y duraderas con nuestros clientes y colaboradores.',
+    'What we&apos;ve learned during this time:' => 'Lo que hemos aprendido en este tiempo:',
+    'No matter what happens in the exporting country, our customers require us to solve their fruit needs; the business can&apos;t stop.' => 'No importa lo que suceda en el país exportador, nuestro cliente requiere que solucionemos su necesidad de fruta; el negocio no puede parar.',
+    'It&apos;s better to acknowledge and rectify an error than to deny it.' => 'Es mejor reconocer el error y corregirlo que negarlo.',
+    'Honesty and friendship are what our customers and suppliers value most.' => 'La honestidad y la amistad son lo que más valoran nuestros clientes y proveedores.',
+    'Price is nothing without quality, quality is nothing without compliance, compliance is nothing without quality, and vice versa.' => 'Precio no es nada sin calidad, calidad no es nada sin cumplimiento, cumplimiento no es nada sin calidad y viceversa.',
+    'Our Vision is to be leaders in the produce industry in America, providing quality, transparency, and lasting relationships to both our customers and suppliers, ensuring our consistency and relationships endure over time.' => 'Nuestra visión es ser líderes en la industria de productos agrícolas en Estados Unidos, brindando calidad, transparencia y relaciones duraderas tanto a nuestros clientes como a nuestros proveedores, asegurando que nuestra consistencia y relaciones perduren en el tiempo.',
+    'Our Values' => 'Nuestros Valores',
+    'Loyalty' => 'Lealtad',
+    'Commitment' => 'Compromiso',
+    'Humility' => 'Humildad',
     '' => '',
     '' => '',
     '' => '',
