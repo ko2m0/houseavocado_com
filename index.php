@@ -108,7 +108,7 @@
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full"></p>
-          <h1 class="lg:my-14 my-6 text-4xl lg:text-6xl font-bold lg:leading-loose leading-normal" id="immaHeroIntro">
+          <h1 class="lg:my-14 my-6 text-4xl lg:text-6xl font-bold leading-normal" id="immaHeroIntro">
             <?= __('Your trusted partner in avocados and other fruits in Pharr, TX.') ?>
           </h1>
           <p class="leading-normal text-2xl mb-8">
