@@ -136,7 +136,7 @@
       <div class="container max-w-5xl mx-auto m-8">
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed">
               <?= __('Like every entrepreneur, we&apos;ve experienced ups and downs, sometimes more downs than ups.') ?>
               <br><br>
               <?= __('However, giving up is not in our DNA. We&apos;ve learned from our mistakes and strive to be better in the next season.') ?> 
@@ -154,7 +154,7 @@
           </div>
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+              <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed text-right">
                   <?= __('Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.') ?>
                 <br><br>
             </p>
@@ -163,7 +163,7 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed">
               <?= __('That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.') ?>
               <br><br>
               
@@ -197,13 +197,16 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-8 px-2">
-      <h2 class="my-4 lg:text-4xl text-2xl leading-loose">
+    <section class="container mx-auto text-center py-12 px-2">
+      <div class="w-3/4 flex flex-row align-middle justify-center mx-auto">
+      <h2 class="my-6 py-6 lg:text-4xl text-2xl font-semibold text-left leading-normal lg:leading-loose lg:text-center">
         <?= __('Our Mission is to provide the highest quality fresh produce to our customers while ensuring fair compensation for our farmers.') ?>
         <br>
         <br>
         <?= __('We distinguish ourselves through our friendly and humble approach, fostering strong and lasting relationships with both our customers and collaborators.') ?>
       </h2>
+      </div>
+      
     </section>
     <div class="relative -mt-12 lg:-mt-24">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -229,7 +232,7 @@
       <div class="container max-w-5xl mx-auto m-8">
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed">
                 <strong>
               <?= __('What we&apos;ve learned during this time:') ?>
               </strong>
@@ -246,7 +249,7 @@
           </div>
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+              <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed text-right">
                   <?= __('No matter what happens in the exporting country, our customers require us to solve their fruit needs; the business can&apos;t stop.') ?>
                    <br><br>
             </p>
@@ -255,7 +258,7 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed">
               <?= __('It&apos;s better to acknowledge and rectify an error than to deny it.') ?>
                <br><br>
               
@@ -271,7 +274,7 @@
           </div>
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed text-right">
+              <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed text-right">
                   <?= __('Honesty and friendship are what our customers and suppliers value most.') ?>
                    <br><br>
             </p>
@@ -280,7 +283,7 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-3xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-3xl text-2xl leading-relaxed">
               <?= __('Price is nothing without quality, quality is nothing without compliance, compliance is nothing without quality, and vice versa.') ?>
                <br><br>
               
@@ -315,9 +318,12 @@
       </g>
     </svg>
     <section class="container mx-auto text-center py-8 px-2">
-      <h2 class="my-4 lg:text-4xl text-2xl leading-loose">
+      <div class="w-3/4 flex flex-row align-middle justify-center mx-auto">
+      <h2 class="my-4 lg:text-4xl text-2xl font-semibold text-left leading-normal lg:leading-loose lg:text-center">
         <?= __('Our Vision is to be leaders in the produce industry in America, providing quality, transparency, and lasting relationships to both our customers and suppliers, ensuring our consistency and relationships endure over time.') ?>
         </h2>
+      </div>
+      
     </section>
     <div class="relative -mt-12 lg:-mt-24">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -349,17 +355,17 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 ">
-            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Loyalty') ?></h2>
+            <h2 class="text-3xl  leading-tight text-center text-gray-800"><?= __('Loyalty') ?></h2>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 ">
-            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Commitment') ?></h2>
+            <h2 class="text-3xl  leading-tight text-center text-gray-800"><?= __('Commitment') ?></h2>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 ">
-            <h2 class="text-5xl  leading-tight text-center text-gray-800"><?= __('Humility') ?></h2>
+            <h2 class="text-3xl  leading-tight text-center text-gray-800"><?= __('Humility') ?></h2>
           </div>
         </div>
       </div>
