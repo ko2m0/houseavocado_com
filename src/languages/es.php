@@ -92,6 +92,7 @@ $lang = [
     'Sales' => 'Ventas',
     'Purchases' => 'Compras',
     'Call' => 'Llamar',
+    'Chat with an Assistant' => 'Chatea con un Asistente',
 
 
 // About Us

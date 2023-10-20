@@ -294,7 +294,17 @@
             </div>
           </div>
         </div>
+        <div class="w-full  p-6">
+              <div class="mr-4 text-left">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/+524521287338">
+                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    <?= __('Chat with an Assistant') ?>
+                    </button>
+                </a>    
+              </div>
+            </div>
       </div>
+      
     </section>
     <section class="bg-gray-100 border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
@@ -713,7 +723,14 @@
                   <div class="flex items-center justify-center hidden md:block">
                     <p class="text-gray-800 my-4 text-center"><a href="mailto:Artur@houseavocado.com">Artur@houseavocado.com</a></p>
                   </div>
-                 <div class="flex items-center justify-end">
+                 <div class="flex items-center flex-wrap justify-around lg:justify-end">
+                  <div class="mr-4 flex block lg:hidden">
+                  <a aria-label="Chat on WhatsApp" href="https://wa.me/+19255585243">
+                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                        Chat on WhatsApp
+                  </button>
+                  </a>
+                  </div>
                   <div class="mr-4">
                     <a href="tel:+19255585243">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -887,7 +904,14 @@
                   <div class="flex items-center justify-center hidden md:block">
                     <p class="text-gray-800 my-4 text-center"><a href="mailto:jorge.manzo@casadelaguacate.com">jorge.manzo@casadelaguacate.com</a></p>
                   </div>
-                 <div class="flex items-center justify-end">
+                 <div class="flex items-center flex-wrap justify-around lg:justify-end">
+                 <div class="mr-4 flex block lg:hidden">
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/+524521287338">
+                      <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                      Chat on WhatsApp
+                        </button>
+                    </a>
+                  </div>
                   <div class="mr-4">
                     <a href="tel:+524521287338">
                       <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -908,6 +932,48 @@
           </div>
         </div>
         <!-- -->
+      </div>
+    </section>
+    <!-- -->
+    <section class="bg-white border-b py-8 px-2">
+      
+      <div class="container max-w-5xl mx-auto m-8">
+        <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
+          <?= __('Find us') ?>
+        </h2>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap py-6">
+          <div class="lg:w-1/3 w-full px-3 py-6">
+            <h2 class="font-bold text-gray-800">We are located in:</h2>
+            <ul>
+              <li>
+                <p class="text-gray-800">9801 S Keystone Dr,</p>
+              </li>
+              <li>
+                <p class="text-gray-800">Pharr, TX 78577,</p>
+              </li>
+              <li>
+                <p class="text-gray-800">United States</p>
+              </li>
+              <li>
+                <a href="https://maps.app.goo.gl/89xP4fniVFV4Gmft8">
+                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Get Directions</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-2/3 w-full">
+            <img src="./src/img/keystonecold1.jpg" alt="Keystone Cold LLC">
+          </div>
+        </div>
+        <div class="w-full">
+          <iframe class="absolute top-0 left-0 w-full h-full"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.8571442790517!2d-98.21939013898374!3d26.10358156818838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86650be33f60ca15%3A0xf3916e72b53de148!2sKeystone%20Cold%20LLC!5e0!3m2!1sen!2smx!4v1697759156377!5m2!1sen!2smx"
+              frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+          </div>
       </div>
     </section>
     
