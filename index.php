@@ -944,12 +944,14 @@
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="flex flex-wrap lg:flex-nowrap py-6">
+        <div class="w-full mb-4 px-6 py-3">
+        <h2 class="mx-auto font-bold text-gray-800 text-2xl lg:text-3xl">We are located in:</h2>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap py-6 align-center justify-around">
           <div class="lg:w-1/3 w-full px-3 py-6">
-            <h2 class="font-bold text-gray-800">We are located in:</h2>
             <ul>
               <li>
-                <p class="text-gray-800">9801 S Keystone Dr,</p>
+                <p class="text-gray-800 text-2xl">9801 S Keystone Dr,</p>
               </li>
               <li>
                 <p class="text-gray-800">Pharr, TX 78577,</p>
@@ -962,18 +964,18 @@
                   <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Get Directions</button>
                 </a>
               </li>
-            </ul>
-          </div>
-          <div class="lg:w-2/3 w-full">
-            <img src="./src/img/keystonecold1.jpg" alt="Keystone Cold LLC">
-          </div>
-        </div>
-        <div class="w-full">
-          <iframe class="absolute top-0 left-0 w-full h-full"
+              <li>
+              <iframe class=" top-0 left-0 w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.8571442790517!2d-98.21939013898374!3d26.10358156818838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86650be33f60ca15%3A0xf3916e72b53de148!2sKeystone%20Cold%20LLC!5e0!3m2!1sen!2smx!4v1697759156377!5m2!1sen!2smx"
               frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
             </iframe>
+              </li>
+            </ul>
           </div>
+          <div class="lg:w-2/3 w-full lg:w-[50%]">
+            <img src="./src/img/keystonecold1.jpg" alt="Keystone Cold LLC">
+          </div>
+        </div>
       </div>
     </section>
     

@@ -576,20 +576,16 @@ html {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .left-0 {
   left: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-0 {
@@ -614,10 +610,6 @@ html {
 
 .m-8 {
   margin: 2rem;
-}
-
-.m-3 {
-  margin: 0.75rem;
 }
 
 .mx-auto {
@@ -738,10 +730,6 @@ html {
   height: 100%;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -770,10 +758,6 @@ html {
   width: 100%;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -788,6 +772,10 @@ html {
 
 .max-w-\[70\%\] {
   max-width: 70%;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-1 {
@@ -956,10 +944,6 @@ html {
   padding: 2rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1018,6 +1002,11 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-12 {
@@ -1404,12 +1393,16 @@ html {
     width: 25%;
   }
 
-  .lg\:w-auto {
-    width: auto;
-  }
-
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:max-w-\[70\%\] {
