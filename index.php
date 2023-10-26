@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      House of Avocado :: 
+      House Avocado :: Mexican Produce Imports to the US
     </title>
-    <meta name="description" content="Tu Socio de Confianza en las Importaciones de Aguacate Mexicano" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="House Avocado is a leading importer of Mexican avocados, Persian limes and mangoes to the United States. Elevate your business with our fresh and quality products." />
+    <meta name="keywords" content="Mexican produce imports, Importing Mexican fruits, Fresh avocados from Mexico, Mexican agriculture exports, Quality Mexican produce, US Mexican produce distribution,
+    House of Avocado imports, Avocado importers in the US, Mexican agricultural trade, Mexican fruit distribution" />
     <meta name="author" content="Ko2m0" />
+    <link rel="icon" href="./src/img/icons/favicon.ico">
     <link rel="stylesheet" href="./src/css/style.css"/>
     <!-- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +27,24 @@
         background: linear-gradient(110deg, #568203 0%, #A8EB12 100%);
       }
     </style>
+    <link rel="canonical" href="https://houseavocado.com/main/">
+    <!-- -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Website",
+  "name": "House Avocado",
+  "url": "https://houseavocado.com",
+  "description": "House Avocado is a leading importer of Mexican avocados, Persian limes and mangoes to the United States. Elevate your business with our fresh and quality products.",
+  "keywords": "Mexican produce imports, Importing Mexican fruits, Fresh avocados from Mexico, Mexican agriculture exports, Quality Mexican produce, US Mexican produce distribution,
+    House of Avocado imports, Avocado importers in the US, Mexican agricultural trade, Mexican fruit distribution",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://houseavocado.com/search?q={search_term}",
+    "query-input": "required name=search_term"
+  }
+}
+   </script>
   </head>
   <body class="leading-normal tracking-normal text-white gradient scroll-smooth" style="font-family: 'Poppins', sans-serif;" x-data="{ openMenu : false }">
     <!--Nav-->
@@ -35,17 +55,21 @@
         <div class="pl-4 flex">
          <ul class="list-reset lg:flex justify-start flex-1 items-center">
           <li class="mr-4">
-            <a class="">
+            <a href="https://maps.app.goo.gl/89xP4fniVFV4Gmft8" target="_blank">
               <i class="fa fa-map-marker"></i>
               Keystone Cold, Pharr, TX
             </a>
           </li>
           <li class="mr-4">
+          <a href="tel:+19255585243">
             <i class="fa fa-phone"></i>
             (925)-558-5243
+            </a>
           </li>
           <li class="mr-4">
+            <a href="https://www.linkedin.com/company/avosontime/" target="_blank">
             <i class="fa-brands fa-linkedin "></i>
+            </a>
           </li>
          </ul>
         </div>
@@ -74,22 +98,22 @@
           id="nav-content" :class="openMenu ? 'block' : 'hidden' " x-cloak x-show="true">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black no-underline" href="#growersinfo" @click="openMenu = !openMenu"><?= __('Growers/Exporters') ?></a>
+              <a class="inline-block py-2 px-4 text-black no-underline font-semibold" href="#growersinfo" @click="openMenu = !openMenu"><?= __('Growers/Exporters') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#importersinfo" @click="openMenu = !openMenu"><?= __('Importers/Distributors') ?></a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 font-semibold" href="#importersinfo" @click="openMenu = !openMenu"><?= __('Importers/Distributors') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#salesteam" @click="openMenu = !openMenu" ><?= __('Contact Us') ?></a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 font-semibold" href="#salesteam" @click="openMenu = !openMenu" ><?= __('Contact Us') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="aboutus.php" @click="openMenu = !openMenu" ><?= __('About Us') ?></a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 font-semibold" href="aboutus.php" @click="openMenu = !openMenu" ><?= __('About Us') ?></a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.php?lang=en" data-reload>ENG</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 font-semibold" href="index.php?lang=en" data-reload>ENG</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.php?lang=es" data-reload>ESP</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4 font-semibold" href="index.php?lang=es" data-reload>ESP</a>
             </li>
           </ul>
           <button
@@ -104,17 +128,17 @@
     </nav>
     <!--Hero-->
     <div class="lg:pt-44 pt-36">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col-reverse md:flex-row items-center">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full"></p>
-          <h1 class="lg:my-14 my-6 text-4xl lg:text-6xl font-bold leading-normal" id="immaHeroIntro">
+          <h1 class="lg:my-14 my-6 text-5xl lg:text-6xl font-bold leading-tight md:leading-normal" id="immaHeroIntro">
             <?= __('Your trusted partner in avocados and other fruits in Pharr, TX.') ?>
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            <?= __('We specialize in importing Mexican Produce to the United States') ?>  
+            <?= __('We specialize in importing Mexican Produce to the United States.') ?>  
           </p>
-          <div class="py-6 z-10 flex flex-col md:flex-row align-center justify-center">
+          <div class="w-full py-6 z-10 flex flex-col md:flex-row align-center justify-center md:justify-start">
             <div class="">
               <a href="#growersinfo">
                 <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -133,7 +157,7 @@
           </div>
         </div>
         <!--Right Col-->
-        <div class="w-full md:w-2/5 py-6 text-center">
+        <div class="w-full md:w-2/5 py-6 text-center hidden md:block">
           <img class="w-full md:w-4/5 z-50" src="./src/img/avos4cover8.png" />
         </div>
       </div>
@@ -160,7 +184,7 @@
     <!-- -->
     <div class="bg-white py-8 px-2">
       <section class="container mx-auto text-center py-12 bg-white">
-        <h2 class="w-full my-12 text-2xl lg:text-5xl/relaxed font-bold  text-center text-hoa-green-800">
+        <h2 class="w-full my-12 text-4xl/snug lg:text-5xl/relaxed font-bold text-center text-hoa-green-800">
           <?= __('We easily import, inspect and distribute your product anywhere in the US.') ?></h2>
       </section>
     </div>
@@ -246,7 +270,7 @@
     <!-- -->
     <section class="bg-white border-b py-8 px-2">
       
-      <div class="container max-w-5xl mx-auto m-8">
+      <div class="container max-w-7xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
           <?= __('Growers / Exporters') ?>
         </h2>
@@ -255,9 +279,9 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full sm:w-1/2 p-4 lg:p-6">
-            <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
+            <h3 class="text-2xl lg:text-4xl text-gray-800 font-bold leading-normal mb-6">
               <?= __('Are you a farmer, packer or exporter in Mexico and looking for a business alliance?') ?></h3>
-            <p class="text-gray-600 mb-8">
+            <p class="text-gray-600 mb-8 text-xl lg:text-2xl">
               <?= __('House of Avocado is your strategic partner to promote imports from agricultural producers from Mexico throughout the United States.') ?> <br><br> <?= __('We understand the unique flavors and quality that Mexican avocados, Persian lemon and mango offer, and we are here to help you
     to showcase these qualities to American consumers.') ?>
               <br />
@@ -274,11 +298,11 @@
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
-              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
+              <h3 class="text-2xl lg:text-4xl text-gray-800 font-bold leading-normal mb-3">
                   <?= __('Are you a farmer and/or packer and are you looking for new options or starting a new path in exporting?') ?>
         
               </h3>
-              <p class="text-gray-600 mb-8">
+              <p class="text-gray-600 mb-8 text-xl lg:text-2xl">
                   <?= __('We are not anonymous, we are here to establish strong business relationships. If you are looking for a genuine business alliance, count on us.') ?>
                 <br>
                 <br>
@@ -307,7 +331,7 @@
       
     </section>
     <section class="bg-gray-100 border-b py-8">
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <div class="container  mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           <?= __('Products') ?></h2>
         <div class="w-full mb-4">
@@ -326,7 +350,7 @@
                 <img src="./src/img/avos1.jpg" alt="" class="object-contain">
               </div>
               <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
+                <p class="text-gray-800 text-base text-xl lg:text-2xl">
                   <?= __('Mexican avocado, particularly the Hass variety, is a culinary and nutritional gem.
                   It is an essential ingredient in a balanced diet.') ?>
                   <br><br> 
@@ -356,7 +380,7 @@
                 <img src="./src/img/lime2.jpg" alt="" class="object-contain">
               </div>
               <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
+                <p class="text-gray-800 text-base text-xl lg:text-2xl">
                   <?= __('Persian lemon is a citrus gem with unmatched benefits. Its juice is a flavor enhancer in dishes and drinks, and its fresh aroma adds vitality.') ?>
                   <br><br>
                   <?= __('<strong>House of Avocado</strong> offers fresh, quality Mexican lemons to elevate your culinary creations.') ?>
@@ -385,7 +409,7 @@
                 <img src="./src/img/mango1.jpg" alt="" class="object-contain">
               </div>
               <div class="w-full px-6 py-6 mb-5">
-                <p class="text-gray-800 text-base">
+                <p class="text-gray-800 text-base text-xl lg:text-2xl">
                   <?= __('The Mexican mango is a tropical treasure. Its natural sweetness makes it a delicious snack option or versatile ingredient in sweet and savory dishes.') ?>
                   <br><br> <?= __('<strong>House of Avocado</strong> gives you access to fresh, quality Mexican mangoes to enjoy their exquisite flavor and nutritional benefits.') ?></p>
               </div>
@@ -551,7 +575,7 @@
     <div id="importersinfo" class="bg-white">&nbsp;</div>
     <!---->
     <div class="bg-white py-8">
-      <div class="container max-w-5xl mx-auto m-8">
+      <div class="container max-w-7xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
         <?= __('Importers / Distributors') ?>
         </h2>
@@ -560,10 +584,10 @@
         </div>
         <div class="flex flex-wrap">
           <div class="w-full sm:w-1/2 p-6">
-            <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
+            <h3 class="text-2xl lg:text-4xl text-gray-800 font-bold leading-normal mb-6">
               <?= __('Do you distribute avocados or limes in the USA or Canada and load in the Rio Grande Valley every week?') ?>
             </h3>
-            <p class="text-gray-600 mb-8">
+            <p class="text-gray-600 mb-8 text-xl lg:text-2xl">
               <?= __('We take advantage of the Pharr Bridge, a main gateway for Mexican products, to ensure that your avocados are consistently available in the United States. This strategic location guarantees fast and reliable access to US markets.') ?>
               <br />
               <br />
@@ -579,11 +603,11 @@
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
-              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-3">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-normal mb-6">
                 <?= __('Is avocado one of your main products but you don&apos;t purchase full loads in McAllen?') ?>
                 
               </h3>
-              <p class="text-gray-600 mb-8">
+              <p class="text-gray-600 mb-8 text-xl lg:text-2xl">
                 <?= __('We offer LTL (Less Than Truckload) services in some US cities, including Los Angeles, San Francisco, San Diego, Bronx, Philadelphia, Miami, Tampa, Phoenix, Las Vegas. However, we can explore new options for you; please contact us.') ?>
                 <br />
                 <br />
@@ -613,7 +637,7 @@
     <!---->
     <section class="bg-white border-b py-8 px-2">
       
-      <div class="container max-w-5xl mx-auto m-8" id="growersinfo">
+      <div class="container max-w-7xl mx-auto m-8" id="growersinfo">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
           <?= __('About Us') ?>
         </h2>
@@ -622,7 +646,7 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-2xl text-xl leading-relaxed">
               <?= __('We embarked on this journey in July 2020, right in the midst of Covid-19. We decided to establish this company in the United States. For nearly 2.5 years since the inception of CDA, we were based in California.') ?>
                <br><br>
               <?= __('However, throughout that time, the primary point of sale was always the Rio Grande Valley, specifically the city of Pharr.') ?> 
@@ -640,7 +664,7 @@
           </div>
           <div class="w-full sm:w-2/3 p-6 mt-6">
             <div class="align-middle">
-              <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed text-right">
+              <p class="text-gray-600 mb-8 lg:text-2xl text-xl leading-relaxed text-right">
                   <?= __('As such, at the beginning of 2023, we relocated to Pharr, TX. We redefined our business as a massive volume importer, focusing on distributors who come to replenish their produce in the Rio Grande Valley.') ?>
                    <br><br>
                    <?= __('We also serve those who may not have the time to coordinate logistics, offering both FTL and LTL delivery services.') ?>
@@ -652,7 +676,7 @@
         </div>
         <div class="flex flex-wrap py-6">
           <div class="w-full md:w-2/3 p-4 lg:p-6">
-            <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed">
+            <p class="text-gray-600 mb-8 lg:text-2xl leading-relaxed text-xl">
               <?= __('Throughout this journey, we&apos;ve learned that price, no matter how low, or the brevity of the supply chain between the field and the customer, or even quality, mean nothing without service and relationships.') ?>
                <br><br>
                <?= __('That&apos;s why, when we talk about a new negotiation, it&apos;s not just a sale or a purchase for us; it&apos;s the beginning of a friendship. In our house, you&apos;re family.') ?>  
@@ -937,7 +961,7 @@
     <!-- -->
     <section class="bg-white border-b py-8 px-2">
       
-      <div class="container max-w-5xl mx-auto m-8">
+      <div class="container max-w-7xl mx-auto m-8">
         <h2 class="w-full my-6 text-3xl lg:text-5xl font-bold leading-normal text-center text-gray-800">
           <?= __('Find us') ?>
         </h2>
@@ -960,7 +984,7 @@
                 <p class="text-gray-800">United States</p>
               </li>
               <li>
-                <a href="https://maps.app.goo.gl/89xP4fniVFV4Gmft8">
+                <a href="https://maps.app.goo.gl/89xP4fniVFV4Gmft8" target="_blank">
                   <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">Get Directions</button>
                 </a>
               </li>
@@ -1044,7 +1068,7 @@
         </div>
       </div>
       <div class="container mx-auto text-center">
-        <small class="text-gray-300">This website is made with &hearts; by Kozmo &copy; 2023</small>
+        <small class="text-gray-300">This website is made with &hearts; by <a class="underline" href="https://linktr.ee/kozmo_">Kozmo</a> &copy; 2023</small>
       </div>
        
       <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500"></a>

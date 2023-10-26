@@ -608,6 +608,14 @@ html {
   z-index: 50;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-first {
+  order: -9999;
+}
+
 .m-8 {
   margin: 2rem;
 }
@@ -774,8 +782,12 @@ html {
   max-width: 70%;
 }
 
-.max-w-\[80\%\] {
-  max-width: 80%;
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-1 {
@@ -989,6 +1001,11 @@ html {
   padding-bottom: 6rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1002,11 +1019,6 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pb-12 {
@@ -1106,6 +1118,16 @@ html {
   line-height: 1rem;
 }
 
+.text-4xl\/loose {
+  font-size: 2.25rem;
+  line-height: 2;
+}
+
+.text-4xl\/snug {
+  font-size: 2.25rem;
+  line-height: 1.375;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1172,6 +1194,10 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .no-underline {
@@ -1277,6 +1303,11 @@ html {
   .sm\:flex-row {
     flex-direction: row;
   }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1340,6 +1371,10 @@ html {
     flex-direction: row;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:pb-4 {
     padding-bottom: 1rem;
   }
@@ -1351,6 +1386,15 @@ html {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:leading-normal {
+    line-height: 1.5;
   }
 }
 
@@ -1481,8 +1525,17 @@ html {
     line-height: 1;
   }
 
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .lg\:leading-loose {
     line-height: 2;
+  }
+
+  .lg\:leading-normal {
+    line-height: 1.5;
   }
 }
 

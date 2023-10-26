@@ -14,7 +14,7 @@ $lang = [
 
     'Your trusted partner in avocados and other fruits in Pharr, TX.' => 'Tu socio estratégico de aguacates mexicanos y otros frutos en Pharr, TX.',
     
-    'We specialize in importing Mexican Produce to the United States' => 'Nos especializamos en importar productos mexicanos a Estados Unidos.',
+    'We specialize in importing Mexican Produce to the United States.' => 'Nos especializamos en importar productos mexicanos a Estados Unidos.',
     
     // Main
     
